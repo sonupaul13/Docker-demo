@@ -12,7 +12,7 @@ USER appuser
 
 WORKDIR /app
 
-COPY ./demo3/target/demo-0.0.1-SNAPSHOT.jar /app/demo.jar
+COPY ../demo3/target/demo-0.0.1-SNAPSHOT.jar /app/demo.jar
 
 EXPOSE 8080
 
